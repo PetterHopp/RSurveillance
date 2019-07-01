@@ -28,4 +28,4 @@ Collate:
     'risk_based_functions.R'
     'sep_passive.R'
     'sse_rb2stage.R'
-RoxygenNote: 5.0.1
+RoxygenNote: 6.1.1
