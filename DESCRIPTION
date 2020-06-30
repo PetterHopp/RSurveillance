@@ -16,9 +16,8 @@ Description: A range of functions for the design and
     Schulz K., Sergeant E., Sonnenburg J., Staubach C. (2015). R package of 
     functions for risk-based surveillance. Deliverable 6.24, WP 6 - Decision 
     making tools for implementing risk-based surveillance, Grant Number 
-    no. 310806, RISKSUR (<https://www.fp7-risksur.eu/sites/default/files/
-    documents/Deliverables/RISKSUR_%28310806%29_D6.24.pdf>). 
-    Many of the RSurveillance functions are incorporated into the epitools
+    no. 310806, RISKSUR (<https://www.fp7-risksur.eu/sites/default/files/documents/Deliverables/RISKSUR_%28310806%29_D6.24.pdf>). 
+    Many of the 'RSurveillance' functions are incorporated into the 'epitools'
     website: Sergeant, ESG, 2019. Epitools epidemiological calculators. 
     Ausvet Pty Ltd. Available at: <http://epitools.ausvet.com.au>.
 License: GPL-2|GPL-3
