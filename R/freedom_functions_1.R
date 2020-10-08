@@ -73,7 +73,7 @@ sep.exact<- function(d=1, se = 1, dig = 5) {
 ##'   rounded to next integer)
 ##' @param se unit sensitivity of test (proportion), scalar or vector of same length as n
 ##' @param dig number of digits for rounding of results
-##' @return a vector of population-level sensitivities. if all n <= corresponding N then 
+##' @return a vector of population-level sensitivities. if all n <= corresponding N then
 ##' vector is numeric, otherwise vector is character and elements where n>N are recorded as such
 ##' @keywords methods
 ##' @export
@@ -161,7 +161,7 @@ sep<- function(N = NA, n, pstar, se=1, dig = 5) {
   if (length(sep[is.na(N)]) >0) sep[is.na(N)]<- sep.binom(n=n[is.na(N)], pstar=pstar, se=se[is.na(N)], dig=dig)
   if (sum(!is.na(N)) != 0) {
     if (!pstar.int) {
-      d[!is.na(N)]<- ceiling(N[!is.na(N)] * pstar)
+      d[!is.na(N)]<- max(round(N[!is.na(N)] * pstar), 1)
     }
     sep[!is.na(N)]<- sep.hypergeo(N=N[!is.na(N)], n=n[!is.na(N)], d=d[!is.na(N)], se=se[!is.na(N)], dig)
 
